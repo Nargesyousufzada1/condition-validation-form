@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-validation</title>
+</head>
+<body>
+    <div id="login-box">
+    <h1>Student Validation Form</h1>
+    <form id="Validation-form">
+        <label for="fullName">User Name</label>
+        <input type="text" id="fullName" placeholder="Enter your full name"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"><br><br>
+        
+        
+        <button type="submit" method="post">Submit</button>
+        
+    </form>
+    <div class="result" id="login-result"></div>
+</div>
+<div class="bonus-box" id="student-box" style="display: none;">
+    <h2>Student Panel "Access Authorized"</h2>
+    <form id="studentForm">
+<label for="age">Age</label>
+<input type="number" id="age"><br><br>
+<label for="score">Exam Score</label>
+<input type="number" id="score"><br><br>
+<label for="number">Type a number</label>
+<input type="number" id="number"><br><br>
+
+<button type="submit">Grade Result</button>
+</form>
+<div class="rating" id="ratescore"></div>
+<div class="result" id="bonus-result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
